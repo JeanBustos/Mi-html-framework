@@ -1,0 +1,66 @@
+:root {
+    --color-primario: #00f5c4;
+    --color-secundario: #3b82f6;
+    --color-fondo: #0d1117;
+    --color-panel: #161b22;
+    --color-header: #010409;
+    --texto-principal: #e6edf3;
+    --texto-secundario: #8b949e;
+}
+
+body {
+    background: radial-gradient(circle at top left, #111827, #0d1117);
+    color: var(--texto-principal);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Estilos de la tarjeta principal */
+.tech-card {
+    background-color: var(--color-panel);
+    overflow: hidden;
+}
+
+.bg-header {
+    background-color: var(--color-header);
+}
+
+.text-primary-custom { color: var(--color-primario); }
+.text-secondary-custom { color: var(--color-secundario); }
+.text-light-custom { color: var(--texto-principal); }
+.border-primary-custom { border-color: var(--color-primario) !important; }
+
+/* Imagen de perfil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--color-primario);
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+/* Títulos de sección */
+.section-title {
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-primario);
+    border-left: 4px solid var(--color-secundario);
+    padding-left: 15px;
+}
+
+/* Habilidades (Estilo botones) */
+.skill-badge {
+    background: #0d1117;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--texto-secundario);
+    text-align: center;
+}
