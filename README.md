@@ -11,8 +11,6 @@
 
 ## Descripción del Proyecto
 
-Este proyecto consiste en el desarrollo de una página web tipo perfil profesional o tarjeta digital, donde se presenta información personal, formación académica, habilidades técnicas y datos de contacto.
-
 ### ¿Qué hace el proyecto?
 
 Este proyecto es una página web tipo perfil profesional o tarjeta digital de presentación, donde se muestra información académica, habilidades y datos de contacto.
@@ -46,9 +44,27 @@ Está pensado para estudiantes o profesionales que deseen tener una presentació
   
 ### Explicación:
 
-- **index.html:** Contiene la estructura principal del sitio web.
-- **style.css:** Contiene los estilos personalizados, variables de color y diseño visual.
-- **Imagen-de-Perfil.jpg:** Imagen de perfil utilizada en la tarjeta profesional.
+- **index.html:**  
+  Archivo principal del proyecto. Contiene toda la estructura semántica de la página utilizando HTML y Bootstrap para lograr un diseño centrado y responsivo.  
+  Incluye la integración de:
+  - Bootstrap para estilos y componentes.
+  - Google Fonts (JetBrains Mono) para tipografía personalizada.
+  - Secciones organizadas en tarjeta (card) con encabezado, cuerpo y pie de página.
+  - Información estructurada en bloques como Perfil Profesional, Habilidades y Formación.
+
+- **style.css:**  
+  Archivo de estilos personalizados que complementa Bootstrap.  
+  Implementa:
+  - Variables CSS definidas en `:root` para mantener coherencia en la paleta de colores.
+  - Diseño visual oscuro con gradientes de fondo.
+  - Personalización de tarjetas (`tech-card`).
+  - Estilos para títulos con efecto visual lateral.
+  - Efecto hover en la imagen de perfil (zoom suave).
+  - Diseño de badges personalizados para habilidades.
+
+- **Imagen-de-Perfil.jpg:**  
+  Imagen utilizada como fotografía dentro del encabezado de la tarjeta.  
+  Se presenta en formato circular mediante `border-radius: 50%`, con borde personalizado y efecto interactivo al pasar el cursor.
 
 ---
 
@@ -75,7 +91,20 @@ Está pensado para estudiantes o profesionales que deseen tener una presentació
 ### Sección de Formación
 ![Formacion](Formacion.png)
 
-1. Descargar o clonar el repositorio:
+##  Cómo ejecutar el proyecto
+
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta del proyecto.
+3. Ejecutar el archivo `index.html` en el navegador.
+
+---
+
+## Mejoras Futuras
+
+- Agregar animaciones con JavaScript.
+- Integrar formulario de contacto funcional.
+- Agregar modo claro/oscuro dinámico.
+
 ---
 
 
