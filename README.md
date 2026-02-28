@@ -36,6 +36,50 @@ Está pensado para estudiantes o profesionales que deseen tener una presentació
 - Git
 - GitHub
 
+## Estructura del Proyecto
+
+/perfil-profesional
+- index.html
+- style.css
+- Imagen-de-Perfil.jpg
+
+  
+### Explicación:
+
+- **index.html:** Contiene la estructura principal del sitio web.
+- **style.css:** Contiene los estilos personalizados, variables de color y diseño visual.
+- **Imagen-de-Perfil.jpg:** Imagen de perfil utilizada en la tarjeta profesional.
+
+---
+
+## Funcionalidades
+
+1.  Diseño profesional tipo tarjeta.
+2.  Imagen de perfil con efecto hover (zoom).
+3.  Sección de perfil profesional.
+4.  Sección de habilidades organizada en formato visual.
+5.  Sección de formación académica.
+6.  Diseño responsivo usando Bootstrap.
+8.  Uso de variables CSS para personalización de colores.
+
+---
+
+## Capturas de Pantalla
+
+###  Vista Principal
+![Inicio](images/inicio.png)
+
+### Sección de Habilidades
+![Habilidades](images/habilidades.png)
+
+### Sección de Formación
+![Formacion](images/formacion.png)
+
+---
+
+## Cómo ejecutar el proyecto
+
+1. Descargar o clonar el repositorio:
 ---
 
 
