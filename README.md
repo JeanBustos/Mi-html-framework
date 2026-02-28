@@ -67,17 +67,13 @@ Está pensado para estudiantes o profesionales que deseen tener una presentació
 ## Capturas de Pantalla
 
 ###  Vista Principal
-![Inicio](images/inicio.png)
+![Inicio](Vista_Principal.png)
 
 ### Sección de Habilidades
-![Habilidades](images/habilidades.png)
+![Habilidades](Habilidades.png)
 
 ### Sección de Formación
-![Formacion](images/formacion.png)
-
----
-
-## Cómo ejecutar el proyecto
+![Formacion](Formacion.png)
 
 1. Descargar o clonar el repositorio:
 ---
